@@ -1,0 +1,125 @@
+header {
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db; /* Blue background color */
+}
+
+#wrapper {
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.flex{display:flex;
+list-style-type: none;
+justify-content:center;
+}
+
+.flex img{height:50%;
+width:80px;
+margin-left: 140px;}
+
+nav {
+    background-color: #1c1d22; /* Dark background color */
+    padding: 10px 0;
+    border-radius: 5px; /* Rounded corners */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+nav a:hover {
+    background-color: #27292e; /* Darker background color on hover */
+}
+
+section {
+    margin-top: 20px;
+    background-color: #fff; /* White background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+ 
+#home img{height:500px;
+width:800px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #1c1d22; /* Dark background color */
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 5px; /* Rounded corners */
+    clear: both; /* Clear floats */
+}
+
+/* Add football-related styling */
+h1 {
+    color: #27292e; /* Dark text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+    font-size: 36px; /* Larger font size */
+    margin-bottom: 20px; /* Increased margin */
+}
+
+h2 {
+    color: #27292e; /* Dark text color */
+    font-size: 24px; /* Larger font size */
+    margin-bottom: 15px; /* Increased margin */
+}
+
+.form-container input[type=submit] {
+    background-color: #fca311; /* Orange submit button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px 24px; /* Increased padding */
+    font-size: 16px; /* Larger font size */
+}
+
+.form-container input[type=submit]:hover {
+    background-color: #fb8500; /* Darker orange on hover */
+}
+
+.contact-list {
+    text-align: left;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.contact-list h2 {
+    margin-bottom: 15px; /* Increased margin */
+    color: #27292e; /* Dark text color */
+    font-size: 24px; /* Larger font size */
+}
+
+.contact-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    color: #27292e; /* Dark text color */
+}
