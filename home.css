@@ -134,3 +134,152 @@ h2 {
     margin-bottom: 10px;
     color: #27292e; /* Dark text color */
 }
+header {
+    position: relative;
+}
+header img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e4676; /* Even darker blue color */
+}
+
+#wrapper {
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.flex img {
+    height: 50%;
+    width: 80px;
+    margin-left: 140px;
+}
+
+nav {
+    background-color: #1c1d22; /* Dark background color */
+    padding: 10px 0;
+    border-radius: 5px; /* Rounded corners */
+    border-top: 4px solid #f4d160; /* Yellow border above */
+    border-bottom: 4px solid #f4d160; /* Yellow border below */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+nav a:hover {
+    background-color: #27292e; /* Darker background color on hover */
+}
+
+section {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Remove box from specific sections */
+section#contact-us,
+section#about-us,
+section#welcome {
+    background-color: transparent !important; /* Transparent background */
+    border: none !important; /* Remove border */
+    box-shadow: none !important; /* Remove box shadow */
+}
+
+#contact-us,
+#about-us,
+#welcome {
+    background-color: transparent !important; /* Transparent background */
+    border: none !important; /* Remove border */
+    box-shadow: none !important; /* Remove box shadow */
+}
+
+#home img {
+    height: 500px;
+    width: 800px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #1c1d22; /* Dark background color */
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 5px; /* Rounded corners */
+    clear: both; /* Clear floats */
+    border-top: 4px solid #f4d160; /* Yellow border above */
+    border-bottom: 4px solid #f4d160; /* Yellow border below */
+}
+
+/* Add football-related styling */
+h1 {
+    color: #27292e; /* Dark text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+    font-size: 36px; /* Larger font size */
+    margin-bottom: 20px; /* Increased margin */
+}
+
+h2 {
+    color: #27292e; /* Dark text color */
+    font-size: 24px; /* Larger font size */
+    margin-bottom: 15px; /* Increased margin */
+}
+
+.form-container input[type=submit] {
+    background-color: #fca311; /* Orange submit button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px 24px; /* Increased padding */
+    font-size: 16px; /* Larger font size */
+}
+
+.form-container input[type=submit]:hover {
+    background-color: #fb8500; /* Darker orange on hover */
+}
+
+.contact-list {
+    text-align: center; /* Align content in the center */
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: transparent; /* Transparent background */
+    padding: 0; /* Remove padding */
+    border: none; /* Remove border */
+}
+
+.contact-list h2 {
+    margin-bottom: 15px; /* Increased margin */
+    color: #27292e; /* Dark text color */
+    font-size: 24px; /* Larger font size */
+    text-align: center; /* Align heading in the center */
+}
+
+.contact-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    color: #27292e; /* Dark text color */
+}
