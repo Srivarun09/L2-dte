@@ -40,61 +40,7 @@ header {
 header img {
     position: absolute;
     top: -10px; /* Adjust the negative value to move it up */
-    left: 10px;
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-}
-
-header h1 {
-    color: #fff; /* White text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
-    font-size: 36px; /* Larger font size */
-    margin-bottom: 20px; /* Increased margin */
-}
-
-/* Resetting defaults */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Global styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #1e4676; /* Even darker blue color */
-    color: #fff; /* Default text color */
-}
-
-#wrapper {
-    text-align: center;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.flex {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-}
-
-.flex img {
-    height: 50%;
-    width: 80px;
-    margin-left: 140px;
-}
-
-header {
-    position: relative;
-}
-
-header img {
-    position: absolute;
-    top: -10px; /* Adjust the negative value to move it up */
-    left: -10px; /* Adjust the negative value to move it left */
+    left: -10px; /* Maintain left positioning */
     width: 100px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
 }
@@ -132,13 +78,24 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
 }
 
-section#home img {
-    height: 500px;
-    width: 800px;
+section#home {
+    padding-top: 80px; /* Increase padding on top to move content down */
+    text-align: center; /* Center align content */
 }
 
-section h2,
-section p {
+section#home img {
+    height: 290px; /* Reduced height */
+    width: 580px; /* Original width */
+    margin-top: -60px; /* Adjusted margin to move the image higher */
+}
+
+section#home h2 {
+    margin-top: 20px; /* Move heading down */
+    color: #fff; /* White text color */
+}
+
+section#home p {
+    margin-top: 0; /* Remove top margin to align paragraphs directly after heading */
     color: #fff; /* White text color */
 }
 
